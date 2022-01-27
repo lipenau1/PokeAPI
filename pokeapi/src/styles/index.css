@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "pokefont";
+  src: url("../font/pkmn_rbygsc-webfont.woff") format("woff");
+}
+
+body {
+  font-family: "pokefont";
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #111;
+}
+
+body a, body a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+  display: table-row;
+}
+
+.pic {
+  user-select: none;
+  width: 150px;
+}
+
+.filterTypes {
+  padding-top: 20px;
+}
+
+.typeForFilter {
+  text-align: center;
+  margin-left: 13px;
+  width: 90%;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 5px;
+  user-select: none;
+}
+
+.typeForFilter:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.searchIcon {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+}
+
+.searchIcon:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.title {
+  width: 100%;
+  vertical-align: sub;
+}
+
+.sidebar {
+  font-size: 25px;
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow: auto;
+  text-align: center;
+  color: white;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.tablePokemon {
+  margin: auto auto auto 25%;
+  text-align: center;
+  background-color: whitesmoke;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 75.45%;
+  border-radius: 10px;
+}
+
+.tablePokemon tr {
+  text-align: left;
+  cursor: pointer;
+}
+
+.tablePokemon td {
+  width: 100px;
+  padding: 20px 0px 20px 0px;
+  border-bottom: rgb(221, 220, 220) solid;
+}
+
+.tablePokemon tr:hover {
+  opacity: 0.8;
+  transition: 0.1s;
+}
+
+.tablePokemon th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+td:first-child {
+  border-left-style: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+td:last-child {
+  border-right-style: none;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.numberPokemon {
+  padding-left: 40px !important;
+}
+
+.search {
+  font-family: "pokefont";
+  display: none;
+  margin-left: 27%;
+  margin-top: 10px;
+  background-color: rgb(240, 237, 233);
+  padding: 10px;
+  border: none;
+  border-radius: 5em;
+  width: 40%;
+  opacity: 0.98;
+}
+
+.loading {
+  position: absolute;
+  left: 400px;
+  z-index: 2;
+}
+
+.grass {
+  background-color: rgba(10, 177, 10, 0.753);
+}
+
+.normal {
+  background-color: rgb(250, 216, 152);
+}
+
+.fighting {
+  background-color: rgba(223, 15, 15, 0.726);
+}
+
+.flying {
+  background-color: rgb(206, 188, 240);
+}
+
+.poison {
+  background-color: rgba(128, 0, 128, 0.699);
+}
+
+.ground {
+  background-color: rgba(165, 162, 7, 0.63);
+}
+
+.rock {
+  background-color: rgb(175, 141, 46);
+}
+
+.bug {
+  background-color: rgba(103, 236, 26, 0.76);
+}
+
+.ghost {
+  background-color: rgba(70, 3, 70, 0.767);
+}
+
+.steel {
+  background-color: rgb(137, 148, 160);
+}
+
+.fire {
+  background-color: rgba(255, 60, 1, 0.808);
+}
+
+.water {
+  background-color: rgba(26, 26, 230, 0.788);
+}
+
+.electric {
+  background-color: rgba(226, 226, 14, 0.795);
+}
+
+.psychic {
+  background-color: rgba(241, 12, 127, 0.678);
+}
+
+.ice {
+  background-color: rgb(149, 213, 221);
+}
+
+.dragon {
+  background-color: rgba(23, 9, 153, 0.664);
+}
+
+.dark {
+  background-color: rgba(59, 33, 17, 0.753);
+}
+
+.fairy {
+  background-color: rgba(255, 25, 178, 0.685);
+}
+
+.all {
+  background-color: rgb(56, 56, 56);
+}

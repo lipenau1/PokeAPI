@@ -1,0 +1,113 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  padding: 0em 6em 10em 6em;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.img-poke {
+  position: relative;
+  z-index: 1;
+  width: 15em;
+  top: 55px;
+  left: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.stats-container {
+  position: relative;
+  margin-top: 8em;
+  margin-bottom: -10em;
+  left: -3em;
+}
+
+.stats {
+  padding-bottom: 3em;
+  width: fit-content;
+}
+
+.name-poke {
+  position: relative;
+  text-align: center;
+  top: 5em;
+  left: 0;
+  padding-bottom: 1em;
+}
+
+.name-poke::after {
+  content: "";
+  position: absolute;
+  width: 24.75em;
+  height: 0.25em;
+  background-color: black;
+  top: 1.5em;
+  left: -5em;
+  opacity: 0.8;
+}
+
+.buttonNone {
+  display: none;
+}
+
+.back {
+  position: absolute;
+  font-size: 20px;
+  bottom: 1em;
+  left: 14em;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.back:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.load {
+  color: white;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 15px;
+  position: absolute;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  left: 65.7%;
+  top: 50%;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 30%;
+  top: 50%;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.numPoke {
+  position: absolute;
+  font-size: 20px;
+  top: 1em;
+  left: 1em;
+}
+
+.hashtag {
+  font-size: 25px;
+}
